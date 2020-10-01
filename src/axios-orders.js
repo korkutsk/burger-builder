@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-// Upade babaseURL property
+// TODO update base_url
 const instance = axios.create({
-    baseURL: 'your base url'
+    baseURL: '[base_url]'
 });
 
 export default instance;
